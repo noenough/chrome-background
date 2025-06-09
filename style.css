@@ -1,0 +1,41 @@
+body{
+	background-image: url("./images/google_background4K.jpg");
+	background-size: cover;
+}
+
+.all-items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.items{
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+    width: 550px;
+    height: 30px;
+	border: solid 1px grey;
+	border-radius: 20px;
+	background-color: white;
+    padding: 10px;
+	margin: 30px;
+}
+.search-items,.voiceimage-items{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.txtfield{
+	display: flex;
+	width: 410px;
+	border: none;
+    border-block-color: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.txtfield:focus{
+	outline: none;
+}
